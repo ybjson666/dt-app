@@ -1,0 +1,31 @@
+.delete-btn{
+    margin-right: 10px;
+}
+.tablent-menu {
+a{
+    font-size: 17px;
+    font-weight:600;
+    color: #8592A6;
+    &:hover{
+        color: #8592A6;
+        text-decoration: none;
+    }
+    img{
+        width: 17px;
+        height: 17px;
+        margin-right: 5px;
+    }
+    .shaimg2{
+        display: none;
+    }
+}
+a.on{
+        color: #1882fc;
+        .shaimg1{
+            display: none;
+        }
+        .shaimg2{
+            display: inline-block;
+        }
+    }
+}

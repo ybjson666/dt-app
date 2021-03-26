@@ -1,0 +1,293 @@
+.tinntay-cont .tablent-content{
+  height: calc(100% - 120px);
+}
+.talentAudit.on{
+  right:20px;
+}
+.tin-right.on2{
+  display: none;
+}
+.fen-btn{
+    width:36px;
+    height:36px;
+    background: #edf5ff;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    position: relative;
+    text-align: center;
+    margin-left: 0 !important;
+    margin-right: 10px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  .fen-btn img{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -9px;
+    margin-left: -9px;
+  }
+  .fen-btn .fenimg2{
+    display: none;
+  }
+  .fen-btn:hover,.delete-btn:hover{
+    background: #1882fc;
+  }
+  .fen-btn:hover .fenimg1{
+    display: none;
+  }
+  .fen-btn:hover .fenimg2{
+    display: inline-block;
+  }
+  .fen-btn:visited{
+    background: #1882fc;
+  }
+  .tg-btn{
+    width:80px;
+    height:36px;
+    line-height: 36px;
+    background: #edf5ff;
+    border-radius: 18px;
+    font-size: 16px;
+    color: #257CFF;
+    &:hover{
+      background: #1882FC;
+      color: #fff;
+    }
+  }
+  .tg-btn.on{
+    background: #9A9A9A;
+    color: #fff;
+  }
+  .changeImg{
+    cursor: pointer;
+    img{
+      width: 18px;
+      margin-left: 6px;
+    }
+  }
+  // 订单处理
+  .pers{
+    img{
+      width: 40px;
+      height:40px;
+      border-radius: 50%;
+    }
+  }
+  .persImg{
+    margin-bottom: 5px;
+    img{
+      width: 40px;
+      height:40px;
+      border-radius: 50%;
+    }
+  }
+  .ctract{
+    cursor: pointer;
+    img{
+      width: 32px;
+      height: 40px;
+    }
+  }
+  .emname{
+    padding: 10px;
+    text-align: center;
+  }
+  .emname2{
+    img{
+      width: 26px;
+      height: 26px;
+      border-radius: 4px;
+    }
+  }
+  .dislist{
+    width: 280PX;
+    li{
+      line-height: 54px;
+      padding:0 10px;
+      cursor: pointer;
+      font-size: 18px;
+      color: #333;
+      font-weight: 400;
+      img{
+        width: 36px;
+        height: 36px;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+    }
+    li.on{
+      background: rgba(0,102,255,.04);
+    }
+  }
+  .gn1,.gn2{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 3px solid #6DDB7F;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  .gn2{
+    border-color: #FFB648;
+  }
+  .talent-all{
+    margin-bottom: 15px;
+    span{
+      float: left;
+      display: block;
+      width: 92px;
+      height: 36px;
+      line-height: 36px;
+      font-size: 15px;
+      color: #606D80;
+      text-align: center;
+      border: 0.01rem solid #DCDFE6;
+      border-radius: 0.05rem;
+      cursor: pointer;
+    }
+    span.on{
+      background: #1882FC;
+      color: #fff;
+    }
+    .sp1{
+      border-right: 0;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    .sp2{
+      border-left:0;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+  .demand-detail{
+    width:100%;
+    padding:10px;
+    h3{
+      font-size: 16px;
+      color: #202D40;
+      font-weight: 600;
+    }
+    p{
+      font-size: 14px;
+      color: #606D80;
+      font-weight: 400;
+      margin-bottom: 2px;
+    }
+  }
+  .contract-show-time{
+    width: 230PX;
+    color: #606266;
+    line-height: 0.3rem;
+    padding: 10px;
+    li{
+      float: left;
+      width: 14.28571%;
+      font-size: .14rem;
+      text-align: center;
+      color: #606266;
+      cursor: pointer;
+      &:hover{
+        color: #409EFF;
+      }
+    }
+    li.on{
+      color: #409EFF;
+      font-weight: 700;
+    }
+  }
+  .theoryOrderlist{
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 0 0.08rem 0 rgba(0, 0, 0, 0.06);
+    border-radius: 0.07rem;
+    padding: 0.24rem 0.15rem;
+    // margin-bottom: 0.2rem;
+    .orderNum{
+      font-size: 18px;
+      font-weight: 600;
+      color: #202D40;
+    }
+    .order-server{
+      padding: 12px 10px;
+      border-bottom: 1px solid #eee;
+      .el-col{
+        font-size: 16px;
+        font-weight: 400;
+        color: #202D40;
+        margin-bottom: 5px;
+      }
+    }
+    .order-contract{
+      padding: 12px 10px 0;
+      border-bottom: 1px solid #eee;
+      .orderctlist{
+        margin-bottom: 20px;
+        img{
+          width: 32px;
+          height: 40px;
+          margin-right: 20px;
+        }
+        p{
+          a{
+            margin-right: 10px;
+            &:hover{
+              text-decoration: none;
+              color: #009CFF;
+            }
+          }
+        }
+      }
+    }
+    .orderHlist{
+      .orderHlist-hd{
+        padding: 12px 10px;
+        border-bottom: 1px solid #eee;
+        .odimg{
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          margin-right: 20px;
+        }
+        .orderHlist-p{
+          margin-bottom: 5px;
+        }
+        .orderHlist-msg{
+          cursor: pointer;
+        }
+      }
+    }
+}
+
+.talent-exam-dot{
+  &:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #1882FC;
+    box-shadow: 8px 0 0 #1882FC, -8px 0 0 #1882FC;
+  }
+  &:hover{
+    &:before{
+      background-color: #fff;
+      box-shadow: 8px 0 0 #fff, -8px 0 0 #fff;
+    }
+  }
+}
+.talent-exam-news.on{
+  width: auto;
+  height: auto;
+  border-radius: .15rem;
+  padding: 0 .05rem;
+}
